@@ -1,0 +1,60 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#docHeaderTable {
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-top:0px;
+    font-weight:100;
+    width:105%;
+    border:none;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#docHeaderRow {
+    padding: 0;
+    position: relative;
+    border:none;
+    border-collapse: collapse;
+}
+
+#docHeaderProject {
+    background:black;
+    color:white;
+    font-size:30px;
+    width:260px;
+    text-align:center;
+    border:none;
+    border-collapse: collapse;
+}
+
+#docHeaderTitle {
+    margin:0px;
+    padding:25px;
+    background:rgb(54,95,145);
+    color:white;
+    line-height:1.2;
+    text-align:left;
+    font-size:30px;
+    border:none;
+    border-collapse: collapse;
+}
+#docHeaderSubtitle {
+    padding-top:10px;
+    text-align:left;
+    background:white;
+    font-weight:400;
+    font-size:120%;
+    border:none;
+    border-collapse: collapse;
+}
+
+#docInfoTable {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+

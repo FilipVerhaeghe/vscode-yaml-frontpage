@@ -1,7 +1,7 @@
 {
 	"name": "markdown-yaml-frontpage",
 	"private": true,
-	"version": "0.1",
+	"version": "0.1.0",
 	"displayName": "Markdown yaml Frontpage",
 	"description": "Renders yaml front matter as a document title in the built-in markdown preview",
 	"repository": {
@@ -14,21 +14,23 @@
 		"markdown",
 		"yaml",
 		"frontmatter",
-		"github",
 		"table"
 	],
 	"icon": "logo.png",
-	"publisher": "(UN)MANNED",
+	"publisher": "unmannedaero",
 	"license": "MIT",
 	"engines": {
-		"vscode": "^1.15.0"
+		"vscode": "^1.49.0"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [],
 	"contributes": {
-		"markdown.markdownItPlugins": true
+		"markdown.markdownItPlugins": true,
+		"markdown.previewStyles": [
+			"./solReport.css"
+		]
 	},
 	"main": "./index.js",
 	"devDependencies": {
@@ -36,10 +38,5 @@
 	},
 	"dependencies": {
 		"markdown-it-github-preamble": "^1.0.0"
-	},
-	"__metadata": {
-		"id": "b872af63-f9e1-438e-9462-0315abe9d3aa",
-		"publisherId": "f164f116-e2aa-496b-84dc-2451248e8beb",
-		"publisherDisplayName": "Matt Bierner"
 	}
 }
